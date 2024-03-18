@@ -1,7 +1,8 @@
 'use strict';
 
 function checkForSpam(message) { 
-
+    const message = ["Latest technology news", "JavaScript weekly newsletter", "Get best sale offers now!", "Amazing SalE, only tonight!","Trust me, this is not a spam message", "Get rid of sPaM emails. Our book in on sale!", "[SPAM] How to earn fast money?"]
+    const spamToFind = 'spam', 'sale';
 }
 
 console.log(checkForSpam("Latest technology news")); 
